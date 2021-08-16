@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* header style */
+
 header {
     padding: 20px 35px;
     background-color: navy;
@@ -44,6 +46,10 @@ header nav ul {
     list-style: none;
 }
 
+/* end header styles */
+
+/* hero styles */
+
 .hero {
     background-size: cover;
     background-position: center;
@@ -71,6 +77,10 @@ body {
     margin-top: 40px;
 }
 
+/* end hero styles */
+
+/* about me styles */
+
 .intro h2 {
     font-size: 75px;
     margin-bottom: 40px;
@@ -87,6 +97,16 @@ body {
     margin: 0 auto;
     display: inline-block;
 }
+
+.about-me-img {
+    width: 20%;
+    float: left;
+    padding: 2%;
+}
+
+/* end about me styles */
+
+/* work styles */
 
 .work h2 {
     padding: 0 100px 20px 100px;
@@ -354,6 +374,10 @@ h3.responsive-title {
     font-size: 5rem;
 }
 
+/* end work styles */
+
+/* footer styles */
+
 footer {
         padding: 20px 35px;
         background-color: navy;
@@ -392,11 +416,9 @@ footer {
         list-style: none;
     }
     
-    .about-me-img {
-        width: 20%;
-        float: left;
-        padding: 2%;
-    }
+    /* end footer styles */
+
+    /* media screen responsiveness */
 
     @media screen and (max-width: 1024px) {
         #hero {
@@ -433,7 +455,7 @@ footer {
              }
     }
 
-
+    /* end media screen responsiveness */
 
 
 
